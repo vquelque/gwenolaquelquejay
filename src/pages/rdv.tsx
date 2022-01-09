@@ -151,7 +151,7 @@ const RDVPage = () => {
         {step >= 3 ? (
           <div className="mt-4">
             <button
-              onClick={() => window.location.replace(getLink())}
+              onClick={() => {window.location.href = getLink()} }
               className="bg-pink-400 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
             >
               Prendre rendez vous !
