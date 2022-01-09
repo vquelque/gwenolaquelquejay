@@ -30,14 +30,14 @@ const RDVPage = () => {
       }
       if (age === "adult") {
         if (location == "paris") {
-          if(first == "yes ") {
+          if(first == "yes") {
             return "https://calendly.com/gquelquejay/adulte-paris-1"
           } else {
             return "https://calendly.com/gquelquejay/adulte-paris-suivi"
           }
         }
         if (location == "fontainbleau") {
-          if(first == "yes ") {
+          if(first == "yes") {
             return "https://calendly.com/gquelquejay/adulte-fontainebleau-1"
           } else {
             return "https://calendly.com/gquelquejay/adulte-fontainebleau-suivi"
