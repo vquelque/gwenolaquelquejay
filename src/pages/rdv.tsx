@@ -12,32 +12,38 @@ const RDVPage = () => {
   const nextStep = () => setStep(step + 1)
 
   const getLink = () => {
-    if (first === "no") {
       if (age === "baby") {
         if (location == "paris") {
-          return "https://calendly.com/gquelquejay/1"
+          return "https://calendly.com/gquelquejay/bebe-paris"
         }
         if (location == "fontainbleau") {
-          return "https://calendly.com/gquelquejay/2"
+          return "https://calendly.com/gquelquejay/bebe-fontainebleau"
         }
       }
       if (age === "child") {
         if (location == "paris") {
-          return "https://calendly.com/gquelquejay/3"
+          return "https://calendly.com/gquelquejay/enfant-paris"
         }
         if (location == "fontainbleau") {
-          return "https://calendly.com/gquelquejay/4"
+          return "https://calendly.com/gquelquejay/enfant-fontainebleau"
         }
       }
       if (age === "adult") {
         if (location == "paris") {
-          return "https://calendly.com/gquelquejay/5"
+          if(first == "yes ") {
+            return "https://calendly.com/gquelquejay/adulte-paris-1"
+          } else {
+            return "https://calendly.com/gquelquejay/adulte-paris-suivi"
+          }
         }
         if (location == "fontainbleau") {
-          return "https://calendly.com/gquelquejay/6"
+          if(first == "yes ") {
+            return "https://calendly.com/gquelquejay/adulte-fontainebleau-1"
+          } else {
+            return "https://calendly.com/gquelquejay/adulte-fontainebleau-suivi"
+          }
         }
       }
-    }
   }
 
   return (
