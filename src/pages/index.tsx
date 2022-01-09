@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div className="mx-auto w-60 w-60 overflow-hidden rounded-full">
-      <StaticImage src="../images/quelquejay.jpg" alt="profile picture" />
+      <StaticImage src="../images/quelquejay.jpg" alt="profile picture" imgClassName="overflow-hidden rounded-full"/>
     </div>
     <div className="mt-8">
       <p>Ortophoniste de formation, praticienne en Psycho-Bio-Accupressure et hypnothérapeute.</p>
