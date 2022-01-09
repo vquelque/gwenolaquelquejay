@@ -24,27 +24,19 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="min-h-screen bg-pink-50">
+      <div className="max-w-screen-lg mx-auto px-6 py-6">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div className="max-w-screen-lg mx-auto px-3 pt-20 pb-32 text-lg">
         <main>{children}</main>
         <footer
-          style={{
-            marginTop: `2rem`,
-          }}
+          className="mt-20 text-center text-sm"
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          © {new Date().getFullYear()}, Built with ❤️ by <a href="https://valentinquelquejay.me/">Valentin Quelquejay</a>
         </footer>
+        </div>
       </div>
-    </>
+      </div>
   )
 }
 
