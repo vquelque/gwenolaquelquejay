@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gwenola_quelquejay_website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Site personnel de Gwenola Quelquejay",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Valentin Quelquejay <valquel@pm.me>",
   "dependencies": {
     "cssnano": "^5.0.11",
     "gatsby": "^4.2.0",
