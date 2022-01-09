@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gwenola Quelquejay`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Gwenola Quelquejay - Praticienne PBA et Hypnothérapeute`,
+    description: `Prendre rendez-vous avec Gwenola Quelquejay, praticienne PBA et hypnothérapeute à Paris ou Fontainebleau.`,
+    author: `Gwenola Quelquejay`,
+    siteUrl: `https://gwenolaquelquejay.fr/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-mailgo`,
+    `gatsby-plugin-mailgo`, 
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -29,7 +29,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `/src/images/favicon_package/favicon.ico`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
