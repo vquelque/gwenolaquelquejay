@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle }) => (
   <header>
     <div className="flex flex-wrap justify-between items-center text-pink-500 text-opacity-75">
-      <h1 className="text-2xl font-bold">
+      <h1 className="text-2xl font-bold mb-2 md:mb-0">
         <Link
           to="/"
         >

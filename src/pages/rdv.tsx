@@ -85,20 +85,24 @@ const RDVPage = () => {
           <div className="mb-2">
             <h2 className="mb-1">Où souhaitez-vous prendre rendez-vous ?</h2>
             <div
+              className="flex flex-wrap"
               onChange={e => {
                 setLocation(e.target.value)
                 if (location == "") nextStep()
               }}
             >
+              <div className="flex">
               <input
                 id="loc1"
                 type="radio"
                 value="paris"
                 name="location"
-                className="mr-1"
+                className="mr-1 flex"
               />
-              <label htmlFor="loc1">Paris (15ème Ardt)</label>
+              <label htmlFor="loc1" className="">Paris (15ème Ardt)</label>
+              </div>
               <span className="mr-4" />
+              <div className="flex">
               <input
                 id="loc2"
                 type="radio"
@@ -106,7 +110,8 @@ const RDVPage = () => {
                 name="location"
                 className="mr-1"
               />
-              <label htmlFor="loc2">Fontainebleau</label>
+              <label htmlFor="loc2" className="">Fontainebleau</label>
+              </div>
             </div>
           </div>
         ) : (
@@ -117,11 +122,13 @@ const RDVPage = () => {
           <div className="mb-2">
             <h2 className="mb-1">Quel type de rendez-vous ?</h2>
             <div
+            className="md:flex"
               onChange={e => {
                 setAge(e.target.value)
                 if (age == "") nextStep()
               }}
             >
+              <div className="flex">
               <input
                 id="age1"
                 type="radio"
@@ -130,7 +137,9 @@ const RDVPage = () => {
                 className="mr-1"
               />
               <label htmlFor="age1">Bébé (avant la marche)</label>
-              <span className="mr-4" />
+              </div>
+              <span className="md:mr-4" />
+              <div className="flex">
               <input
                 id="age2"
                 type="radio"
@@ -139,7 +148,9 @@ const RDVPage = () => {
                 className="mr-1"
               />
               <label htmlFor="age2">Enfant</label>
-              <span className="mr-4" />
+              </div>
+              <span className="md:mr-4" />
+              <div className="flex"> 
               <input
                 id="loc3"
                 type="radio"
@@ -148,6 +159,7 @@ const RDVPage = () => {
                 className="mr-1"
               />
               <label htmlFor="loc3">Adulte</label>
+              </div>
             </div>
           </div>
         ) : (
