@@ -17,7 +17,8 @@ const RDVPage = () => {
           return "https://calendly.com/gquelquejay/bebe-paris"
         }
         if (location == "fontainebleau") {
-          return "https://calendly.com/gquelquejay/bebe-fontainebleau"
+        // return "https://calendly.com/gquelquejay/bebe-fontainebleau"
+        return "https://calendly.com/gquelquejay/enfant-cpsf"
         }
       }
       if (age === "child") {
@@ -25,7 +26,8 @@ const RDVPage = () => {
           return "https://calendly.com/gquelquejay/enfant-paris"
         }
         if (location == "fontainebleau") {
-          return "https://calendly.com/gquelquejay/enfant-fontainebleau"
+        // return "https://calendly.com/gquelquejay/enfant-fontainebleau"
+        return "https://calendly.com/gquelquejay/enfant-cpsf"
         }
       }
       if (age === "adult") {
@@ -38,9 +40,11 @@ const RDVPage = () => {
         }
         if (location == "fontainebleau") {
           if(first == "yes") {
-            return "https://calendly.com/gquelquejay/adulte-fontainebleau-1"
+            // return "https://calendly.com/gquelquejay/adulte-fontainebleau-1"
+            return "https://calendly.com/gquelquejay/adulte-cpsf-1"
           } else {
-            return "https://calendly.com/gquelquejay/adulte-fontainebleau-suivi"
+            //return "https://calendly.com/gquelquejay/adulte-fontainebleau-suivi"
+            return "https://calendly.com/gquelquejay/adulte-cpsf-suivi"
           }
         }
       }

@@ -34,7 +34,6 @@ const ParcoursPage = () => (
       thérapie.
       </p>
       <br />
-      <p>
       <strong>Les Indications : </strong>
       <ul>
         <li>
@@ -49,8 +48,6 @@ const ParcoursPage = () => (
         </li>
         <li><em>Bébé</em> : Pleurs, coliques, eczéma, sommeil…</li>
       </ul>
-    </p>
-
     <Callout />
   </Layout>
 )
