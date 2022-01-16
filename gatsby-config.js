@@ -3,7 +3,8 @@ module.exports = {
     title: `Gwenola Quelquejay - Praticienne PBA et Hypnothérapeute`,
     description: `Prendre rendez-vous avec Gwenola Quelquejay, praticienne PBA et hypnothérapeute à Paris ou Fontainebleau.`,
     author: `Gwenola Quelquejay`,
-    siteUrl: `https://gwenolaquelquejay.fr/`,
+    siteUrl: `https://gwenolaquelquejay.fr`, //no trailing slash
+    keywords: `accupressure, hypnose, paris, fontainebleau, médecine douce, psycho-bio-accupressure, pba, delatte`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
