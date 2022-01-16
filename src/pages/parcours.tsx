@@ -17,15 +17,8 @@ const ParcoursPage = () => (
       la vie.
       </p>
       <br />
-      <p>   
-      J’utilise <strong>l’Hypnose et les techniques d’optimisation du potentiel </strong> dans les
-      indications telles que la difficulté de prise de parole en public, le
-      stress, la confiance en soi, les douleurs, le sommeil, les migraines, la
-      préparations aux examens des étudiants et des sportifs…
-      </p>
-      <br />
       <p>
-      Grâce à <strong>l’Acupressure à cinq points</strong>, technique mise au point par le Docteur
+      Grâce à <strong>l’Acupressure à cinq points</strong> <span className="italic">(PBA)</span>, technique mise au point par le Docteur
       Delatte il y a plus de 20 ans, je viens stimuler sur votre corps une série
       de points afin de travailler sur les émotions et libérer vos blocages
       émotionnels.
@@ -34,6 +27,14 @@ const ParcoursPage = () => (
       thérapie.
       </p>
       <br />
+      <p>   
+      J’utilise <strong>l’Hypnose et les techniques d’optimisation du potentiel </strong> dans les
+      indications telles que la difficulté de prise de parole en public, le
+      stress, la confiance en soi, les douleurs, le sommeil, les migraines, la
+      préparations aux examens des étudiants et des sportifs…
+      </p>
+      <br />
+
       <strong>Les Indications : </strong>
       <ul>
         <li>
