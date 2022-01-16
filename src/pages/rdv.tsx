@@ -18,7 +18,7 @@ const RDVPage = () => {
         }
         if (location == "fontainebleau") {
         // return "https://calendly.com/gquelquejay/bebe-fontainebleau"
-        return "https://calendly.com/gquelquejay/enfant-cpsf"
+        return "https://calendly.com/gquelquejay/bebe-cpsf"
         }
       }
       if (age === "child") {
