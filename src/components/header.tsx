@@ -12,7 +12,10 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <div className="flex space-x-4"> 
       <Link className="" to="/parcours/">mon parcours</Link>
+      <Link className="" to="/honoraires/">honoraires</Link>
+      </div>
     </div>
   </header>
 )

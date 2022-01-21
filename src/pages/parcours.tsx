@@ -28,7 +28,7 @@ const ParcoursPage = () => (
       </p>
       <br />
       <p>   
-      J’utilise <strong>l’Hypnose et les techniques d’optimisation du potentiel </strong> dans les
+      J’utilise <strong>l’Hypnose médicale et les techniques d’optimisation du potentiel </strong> dans les
       indications telles que la difficulté de prise de parole en public, le
       stress, la confiance en soi, les douleurs, le sommeil, les migraines, la
       préparations aux examens des étudiants et des sportifs…
@@ -40,7 +40,7 @@ const ParcoursPage = () => (
         <li>
           <em>Adulte</em> : stress, anxiété, burn out, déprime, troubles du sommeil ,
           confiance en soi, concentration, mémoire, troubles de l’alimentation,
-          de la sexualité, peurs, phobies, tics…..
+          de la sexualité, peurs, phobies, tics, poids, addictions…
         </li>
         <li>
           <em>Enfant</em> : confiance en soi, sommeil, séparation, difficultés scolaires,

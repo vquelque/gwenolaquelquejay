@@ -17,7 +17,7 @@ const IndexPage = () => (
     </div>
     <div className="mt-8">
       <p>
-        Ortophoniste de formation, praticienne en{" "}
+        Orthophoniste de formation, praticienne en{" "}
         <strong className="font-normal">Psycho-Bio-Acupressure</strong> et{" "}
         <strong className="font-normal">hypnothérapeute</strong>.
       </p>
@@ -41,6 +41,7 @@ const IndexPage = () => (
           ici !
         </a>
       </p>
+      <p>Vous pouvez ausssi me téléphoner <a className="text-pink-400 font-semibold hover:text-pink-700" href="tel:+33665462854"> ici !</a></p>
     </div>
   </Layout>
 )
