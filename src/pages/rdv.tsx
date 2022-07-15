@@ -25,7 +25,7 @@ const RDVPage = () => {
 
   const getLink = () => {
     if (location === "plouneour") {
-      return "https://calendly.com/gquelquejay/rdv-plouneour"
+      return "https://calendly.com/gquelquejay/rdv-plouneour" + getType()
     }
     if (age === "baby") {
       if (location == "paris") {
