@@ -24,6 +24,9 @@ const RDVPage = () => {
   }
 
   const getLink = () => {
+    if (location === "plouneour") {
+      return "https://calendly.com/gquelquejay/rdv-plouneour"
+    }
     if (age === "baby") {
       if (location == "paris") {
         return "https://calendly.com/gquelquejay/bebe-paris"
@@ -135,6 +138,19 @@ const RDVPage = () => {
                 />
                 <label htmlFor="loc2" className="">
                   Fontainebleau
+                </label>
+              </div>
+              <span className="mr-4" />
+              <div className="flex">
+                <input
+                  id="loc3"
+                  type="radio"
+                  value="plouneour"
+                  name="location"
+                  className="mr-1"
+                />
+                <label htmlFor="loc3" className="">
+                  Plounéour/Brignogan
                 </label>
               </div>
             </div>
