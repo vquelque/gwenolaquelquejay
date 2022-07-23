@@ -22,8 +22,8 @@ const IndexPage = () => (
         <strong className="font-normal">hypnothérapeute</strong>.
       </p>
       <p>
-        Je vous reçois à <strong className="font-normal">Paris XV</strong> ou{" "}
-        <strong className="font-normal">Fontainebleau</strong>.
+        Je vous reçois à <strong className="font-normal">Paris XV</strong>,{" "}
+        <strong className="font-normal">Fontainebleau</strong> et <strong className="font-normal">Plounéour (29)</strong>.
       </p>
     </div>
     <Callout />
