@@ -36,7 +36,7 @@ const IndexPage = () => (
           className="text-pink-400 font-semibold hover:text-pink-700"
           href="#mailgo"
           data-address="contact"
-          data-domain="gwenolaquelquejay.me"
+          data-domain="gwenolaquelquejay.fr"
         >
           ici !
         </a>
