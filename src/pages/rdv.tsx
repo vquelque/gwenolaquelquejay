@@ -40,7 +40,9 @@ const RDVPage = () => {
         return "https://calendly.com/gquelquejay/enfant-paris" + getType()
       }
       if (location == "fontainebleau") {
-        return "https://calendly.com/gquelquejay/enfant-fontainebleau" + getType()
+        return (
+          "https://calendly.com/gquelquejay/enfant-fontainebleau" + getType()
+        )
       }
     }
     if (age === "adult") {
@@ -55,16 +57,19 @@ const RDVPage = () => {
       }
       if (location == "fontainebleau") {
         if (first == "yes") {
-          return "https://calendly.com/gquelquejay/adulte-fontainebleau-1" + getType()
+          return (
+            "https://calendly.com/gquelquejay/adulte-fontainebleau-1" +
+            getType()
+          )
         } else {
           return (
-            "https://calendly.com/gquelquejay/adulte-fontainebleau-suivi" + getType()
+            "https://calendly.com/gquelquejay/adulte-fontainebleau-suivi" +
+            getType()
           )
         }
       }
     }
   }
-
 
   return (
     <Layout>
@@ -253,14 +258,22 @@ const RDVPage = () => {
 
         {step >= 4 ? (
           <div className="mt-4">
-            <button
-              onClick={() => {
-                window.location.href = getLink()
-              }}
-              className="bg-pink-400 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
-            >
-              Prendre rendez vous !
-            </button>
+            {location !== "plouneour" && (
+              <button
+                onClick={() => {
+                  window.location.href = getLink()
+                }}
+                className="bg-pink-400 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Prendre rendez vous !
+              </button>
+            )}
+            {location === "plouneour" && (
+              <p className="text-pink-400 font-bold">
+                Merci d'appeler le secrétariat médical au 02.98.83.51.31 pour
+                prendre rendez-vous.
+              </p>
+            )}
           </div>
         ) : (
           ""

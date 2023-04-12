@@ -23,7 +23,8 @@ const IndexPage = () => (
       </p>
       <p>
         Je vous reçois à <strong className="font-normal">Paris XV</strong>,{" "}
-        <strong className="font-normal">Fontainebleau</strong> et <strong className="font-normal">Plounéour (29)</strong>.
+        <strong className="font-normal">Fontainebleau</strong> et{" "}
+        <strong className="font-normal">Plounéour (29)</strong>.
       </p>
     </div>
     <Callout />
@@ -41,7 +42,16 @@ const IndexPage = () => (
           ici !
         </a>
       </p>
-      <p>Vous pouvez ausssi me téléphoner <a className="text-pink-400 font-semibold hover:text-pink-700" href="tel:+33665462854"> ici !</a></p>
+      <p>
+        Vous pouvez ausssi me téléphoner{" "}
+        <a
+          className="text-pink-400 font-semibold hover:text-pink-700"
+          href="tel:+33665462854"
+        >
+          {" "}
+          ici !
+        </a>
+      </p>
     </div>
   </Layout>
 )
