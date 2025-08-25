@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgwenola_quelquejay_website=self.webpackChunkgwenola_quelquejay_website||[]).push([[679],{9494:function(e,t,l){l.r(t);var n=l(6540),a=l(3244),u=l(9902);t.default=()=>n.createElement(a.A,null,n.createElement(u.A,{title:"Honoraires"}),n.createElement("h1",{className:"text-2xl text-pink-600 font-semibold mb-4"},"Honoraires"),n.createElement("p",null,"Honoraires: 80 euros"),n.createElement("p",null,"Règlement en chèque ou espèces uniquement."))}}]);
+//# sourceMappingURL=component---src-pages-honoraires-tsx-ae83fa0bf52fa37cacb8.js.map
