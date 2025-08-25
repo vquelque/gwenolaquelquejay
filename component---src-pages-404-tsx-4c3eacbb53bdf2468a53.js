@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgwenola_quelquejay_website=self.webpackChunkgwenola_quelquejay_website||[]).push([[453],{2504:function(e,t,l){l.r(t);var u=l(6540),n=l(3244),a=l(9902);t.default=()=>u.createElement(n.A,null,u.createElement(a.A,{title:"Page non trouvée - Gwenola Quelquejay"}),u.createElement("h1",null,"404: Not Found"),u.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-4c3eacbb53bdf2468a53.js.map
