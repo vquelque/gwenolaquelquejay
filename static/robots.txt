@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gwenolaquelquejay.fr/sitemap/sitemap-index.xml
