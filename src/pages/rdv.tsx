@@ -73,7 +73,7 @@ const RDVPage = () => {
 
   return (
     <Layout>
-      <Seo title="Prendre rendez-vous" />
+      <Seo title="Prendre rendez-vous - Gwenola Quelquejay" />
       <h1 className="text-2xl font-bold mb-8">Prendre rendez-vous :</h1>
       <div className="mb-6 text-gray-700">
         <div className="mb-2">

@@ -7,7 +7,7 @@ import Callout from "../components/callout"
 
 const ParcoursPage = () => (
   <Layout>
-    <Seo title="mon parcours" />
+    <Seo title="Parcours - Gwenola Quelquejay" />
     <h1 className="text-2xl text-pink-600 font-semibold mb-4">Mon parcours</h1>
     <p>
       <strong>Orthophoniste spécialisée en neurologie</strong>, je me suis

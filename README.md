@@ -54,8 +54,10 @@ Le site est configuré pour se déployer automatiquement sur GitHub Pages via Gi
 
 #### Déploiement automatique
 1. Poussez vos changements sur la branche `main`
-2. GitHub Actions construira et déploiera automatiquement le site
-3. Le site sera disponible sur `https://YOUR_USERNAME.github.io/gwenolaquelquejay`
+2. **Pour GitHub Pages avec nom de repository :** Ajoutez `pathPrefix: "/gwenolaquelquejay"` dans `gatsby-config.js`
+3. **Pour domaine personnalisé :** Retirez `pathPrefix` de `gatsby-config.js`
+4. GitHub Actions construira et déploiera automatiquement le site
+5. Le site sera disponible sur `https://YOUR_USERNAME.github.io/gwenolaquelquejay/` ou votre domaine personnalisé
 
 #### Déploiement manuel
 ```bash

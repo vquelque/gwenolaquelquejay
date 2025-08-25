@@ -7,7 +7,7 @@ import Callout from "../components/callout"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Gwenola Quelquejay - Acupressure & Hypnose" />
     <div className="mx-auto w-60 w-60 overflow-hidden rounded-full">
       <StaticImage
         src="../images/quelquejay.jpg"
