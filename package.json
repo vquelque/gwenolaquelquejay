@@ -28,6 +28,7 @@
     "tailwindcss": "^2.2.19"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "prettier": "^2.4.1"
   },
   "keywords": [
@@ -41,7 +42,10 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "predeploy": "npm run build",
+    "deploy:gh": "./scripts/deploy.sh"
   },
   "repository": {
     "type": "git",
